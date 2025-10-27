@@ -1,0 +1,812 @@
+[0;36m[INFO][0m Detected pnpm (pnpm-lock.yaml found)
+[0;36m[INFO][0m Using package manager: pnpm
+[0;36m[INFO][0m No arguments provided, running 'dev' script...
+[0;36m[INFO][0m Running script: dev
+[0;36m[INFO][0m Executing: pnpm run dev
+
+> my-v0-project@0.1.0 dev /Users/pro/projects/frontend/3dp
+> next dev
+
+   ▲ Next.js 16.0.0 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.0.3:3000
+
+ ✓ Starting...
+ ✓ Ready in 671ms
+ GET / 200 in 2.6s (compile: 2.4s, render: 236ms)
+ GET /data-analysis-training-with-charts.jpg 404 in 360ms (compile: 249ms, render: 111ms)
+ GET /evening-professional-training-session.jpg 404 in 420ms (compile: 266ms, render: 155ms)
+ GET /data-security-and-privacy-protection.jpg 404 in 425ms (compile: 276ms, render: 149ms)
+ GET /automated-data-workflow-integration.jpg 404 in 434ms (compile: 292ms, render: 142ms)
+ GET /professional-training-workshop-with-laptops.jpg 404 in 434ms (compile: 298ms, render: 135ms)
+ ⨯ The requested resource isn't a valid image for /data-analysis-training-with-charts.jpg received null
+ ⨯ The requested resource isn't a valid image for /evening-professional-training-session.jpg received null
+ ⨯ The requested resource isn't a valid image for /data-security-and-privacy-protection.jpg received null
+ ⨯ The requested resource isn't a valid image for /automated-data-workflow-integration.jpg received null
+ ⨯ The requested resource isn't a valid image for /professional-training-workshop-with-laptops.jpg received null
+ GET /technical-data-engineering-workshop.jpg 404 in 413ms (compile: 316ms, render: 97ms)
+ ⨯ The requested resource isn't a valid image for /technical-data-engineering-workshop.jpg received null
+ GET /data-privacy-and-compliance-training.jpg 404 in 102ms (compile: 5ms, render: 97ms)
+ GET /professional-team-collaboration-on-data-project.jpg 404 in 105ms (compile: 15ms, render: 89ms)
+ ⨯ The requested resource isn't a valid image for /data-privacy-and-compliance-training.jpg received null
+ GET /modern-data-analytics-dashboard-with-charts-and-gr.jpg 404 in 111ms (compile: 78ms, render: 33ms)
+ ⨯ The requested resource isn't a valid image for /professional-team-collaboration-on-data-project.jpg received null
+ ⨯ The requested resource isn't a valid image for /modern-data-analytics-dashboard-with-charts-and-gr.jpg received null
+ GET /business-strategy-meeting-with-data-charts.jpg 404 in 46ms (compile: 4ms, render: 43ms)
+ ⨯ The requested resource isn't a valid image for /business-strategy-meeting-with-data-charts.jpg received null
+ GET /data-infrastructure-and-cloud-computing.jpg 404 in 49ms (compile: 16ms, render: 33ms)
+ GET /interactive-business-intelligence-dashboard.jpg 404 in 50ms (compile: 22ms, render: 28ms)
+ ⨯ The requested resource isn't a valid image for /data-infrastructure-and-cloud-computing.jpg received null
+ ⨯ The requested resource isn't a valid image for /interactive-business-intelligence-dashboard.jpg received null
+ ✓ Compiled in 76ms
+ ✓ Compiled in 46ms
+ ✓ Compiled in 98ms
+ ✓ Compiled in 35ms
+ ✓ Compiled in 46ms
+ ✓ Compiled in 27ms
+Error: Turbopack build failed with 1 errors:
+./app
+Error: Next.js inferred your workspace root, but it may not be correct.
+    We couldn't find the Next.js package (next/package.json) from the project directory: /Users/pro/projects/frontend/3dp/app
+     To fix this, set turbopack.root in your Next.js config, or ensure the Next.js package is resolvable from this directory.
+    Note: For security and performance reasons, files outside of the project directory will not be compiled.
+    See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+
+    at ignore-listed frames
+[?25h
+ ELIFECYCLE  Command failed with exit code 1.
+[0;36m[INFO][0m Detected pnpm (pnpm-lock.yaml found)
+[0;36m[INFO][0m Using package manager: pnpm
+[0;36m[INFO][0m No arguments provided, running 'dev' script...
+[0;36m[INFO][0m Running script: dev
+[0;36m[INFO][0m Executing: pnpm run dev
+
+> my-v0-project@0.1.0 dev /Users/pro/projects/frontend/3dp
+> next dev
+
+   ▲ Next.js 16.0.0 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.0.3:3000
+
+ ✓ Starting...
+ ✓ Ready in 704ms
+ ⨯ ./components/data-visualizations.tsx:4:1
+Module not found: Can't resolve '@canvasjs/react-charts'
+[0m [90m 2 |[39m
+ [90m 3 |[39m [36mimport[39m { useEffect[33m,[39m useRef[33m,[39m useState } [36mfrom[39m [32m"react"[39m
+[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m [33mCanvasJSReact[39m [36mfrom[39m [32m"@canvasjs/react-charts"[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 5 |[39m [36mimport[39m { [33mDatabase[39m[33m,[39m [33mTrendingUp[39m[33m,[39m [33mBarChart3[39m } [36mfrom[39m [32m"lucide-react"[39m
+ [90m 6 |[39m
+ [90m 7 |[39m [36mvar[39m [33mCanvasJS[39m [33m=[39m [33mCanvasJSReact[39m[33m.[39m[33mCanvasJS[39m[0m
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/data-visualizations.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/data-visualizations.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET / 500 in 2.6s (compile: 2.5s, render: 68ms)
+ ✓ Compiled in 310ms
+ ⨯ ReferenceError: document is not defined
+    at module evaluation (components/data-visualizations.tsx:4:1)
+    at module evaluation (app/page.tsx:9:1)
+  2 |
+  3 | import { useEffect, useRef, useState } from "react"
+> 4 | import CanvasJSReact from "@canvasjs/react-charts"
+    | ^
+  5 | import { Database, TrendingUp, BarChart3 } from "lucide-react"
+  6 |
+  7 | var CanvasJS = CanvasJSReact.CanvasJS {
+  digest: '1866590073'
+}
+ GET / 500 in 633ms (compile: 194ms, render: 439ms)
+ GET /business-strategy-meeting-with-data-charts.jpg 404 in 201ms (compile: 114ms, render: 87ms)
+ GET /data-infrastructure-and-cloud-computing.jpg 404 in 248ms (compile: 129ms, render: 119ms)
+ GET /modern-data-analytics-dashboard-with-charts-and-gr.jpg 404 in 465ms (compile: 355ms, render: 110ms)
+ ⨯ The requested resource isn't a valid image for /business-strategy-meeting-with-data-charts.jpg received null
+ ⨯ The requested resource isn't a valid image for /data-infrastructure-and-cloud-computing.jpg received null
+ ⨯ The requested resource isn't a valid image for /modern-data-analytics-dashboard-with-charts-and-gr.jpg received null
+ GET /interactive-business-intelligence-dashboard.jpg 404 in 256ms (compile: 176ms, render: 79ms)
+ ⨯ The requested resource isn't a valid image for /interactive-business-intelligence-dashboard.jpg received null
+ GET /automated-data-workflow-integration.jpg 404 in 90ms (compile: 9ms, render: 81ms)
+ GET /professional-training-workshop-with-laptops.jpg 404 in 92ms (compile: 17ms, render: 74ms)
+ GET /data-security-and-privacy-protection.jpg 404 in 94ms (compile: 25ms, render: 69ms)
+ GET /evening-professional-training-session.jpg 404 in 95ms (compile: 33ms, render: 62ms)
+ GET /data-analysis-training-with-charts.jpg 404 in 97ms (compile: 41ms, render: 56ms)
+ ⨯ The requested resource isn't a valid image for /automated-data-workflow-integration.jpg received null
+ ⨯ The requested resource isn't a valid image for /professional-training-workshop-with-laptops.jpg received null
+ ⨯ The requested resource isn't a valid image for /data-security-and-privacy-protection.jpg received null
+ ⨯ The requested resource isn't a valid image for /evening-professional-training-session.jpg received null
+ ⨯ The requested resource isn't a valid image for /data-analysis-training-with-charts.jpg received null
+ ✓ Compiled in 36ms
+ ✓ Compiled in 31ms
+ ✓ Compiled in 35ms
+ ✓ Compiled in 41ms
+ ✓ Compiled in 51ms
+ GET /technical-data-engineering-workshop.jpg 404 in 52ms (compile: 5ms, render: 47ms)
+ ⨯ The requested resource isn't a valid image for /technical-data-engineering-workshop.jpg received null
+ GET /data-privacy-and-compliance-training.jpg 404 in 58ms (compile: 29ms, render: 29ms)
+ ⨯ The requested resource isn't a valid image for /data-privacy-and-compliance-training.jpg received null
+ GET /professional-team-collaboration-on-data-project.jpg 404 in 19ms (compile: 1593µs, render: 17ms)
+ ⨯ The requested resource isn't a valid image for /professional-team-collaboration-on-data-project.jpg received null
+ GET / 200 in 152ms (compile: 53ms, render: 99ms)
+ GET /modern-data-analytics-dashboard-with-charts-and-gr.jpg 404 in 33ms (compile: 4ms, render: 29ms)
+ ⨯ The requested resource isn't a valid image for /modern-data-analytics-dashboard-with-charts-and-gr.jpg received null
+ GET /business-strategy-meeting-with-data-charts.jpg 404 in 54ms (compile: 20ms, render: 33ms)
+ ⨯ The requested resource isn't a valid image for /business-strategy-meeting-with-data-charts.jpg received null
+ GET /data-infrastructure-and-cloud-computing.jpg 404 in 49ms (compile: 24ms, render: 26ms)
+ ⨯ The requested resource isn't a valid image for /data-infrastructure-and-cloud-computing.jpg received null
+ GET /interactive-business-intelligence-dashboard.jpg 404 in 20ms (compile: 4ms, render: 16ms)
+ ⨯ The requested resource isn't a valid image for /interactive-business-intelligence-dashboard.jpg received null
+ GET /automated-data-workflow-integration.jpg 404 in 59ms (compile: 3ms, render: 55ms)
+ GET /professional-training-workshop-with-laptops.jpg 404 in 67ms (compile: 11ms, render: 56ms)
+ GET /data-security-and-privacy-protection.jpg 404 in 69ms (compile: 22ms, render: 48ms)
+ ⨯ The requested resource isn't a valid image for /automated-data-workflow-integration.jpg received null
+ ⨯ The requested resource isn't a valid image for /professional-training-workshop-with-laptops.jpg received null
+ ⨯ The requested resource isn't a valid image for /data-security-and-privacy-protection.jpg received null
+ ✓ Compiled in 720ms
+ ✓ Compiled in 65ms
+ GET / 200 in 159ms (compile: 54ms, render: 106ms)
+ GET /modern-data-analytics-dashboard-with-charts-and-gr.jpg 404 in 40ms (compile: 12ms, render: 28ms)
+ ⨯ The requested resource isn't a valid image for /modern-data-analytics-dashboard-with-charts-and-gr.jpg received null
+ GET /business-strategy-meeting-with-data-charts.jpg 404 in 41ms (compile: 18ms, render: 23ms)
+ ⨯ The requested resource isn't a valid image for /business-strategy-meeting-with-data-charts.jpg received null
+ GET /data-infrastructure-and-cloud-computing.jpg 404 in 72ms (compile: 7ms, render: 65ms)
+ ⨯ The requested resource isn't a valid image for /data-infrastructure-and-cloud-computing.jpg received null
+ GET /interactive-business-intelligence-dashboard.jpg 404 in 18ms (compile: 1614µs, render: 17ms)
+ ⨯ The requested resource isn't a valid image for /interactive-business-intelligence-dashboard.jpg received null
+ GET /automated-data-workflow-integration.jpg 404 in 47ms (compile: 6ms, render: 40ms)
+ GET /professional-training-workshop-with-laptops.jpg 404 in 50ms (compile: 14ms, render: 35ms)
+ ⨯ The requested resource isn't a valid image for /automated-data-workflow-integration.jpg received null
+ ⨯ The requested resource isn't a valid image for /professional-training-workshop-with-laptops.jpg received null
+ GET /data-security-and-privacy-protection.jpg 404 in 56ms (compile: 33ms, render: 23ms)
+ ⨯ The requested resource isn't a valid image for /data-security-and-privacy-protection.jpg received null
+ ✓ Compiled in 50ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 29ms
+ GET /modern-data-analytics-dashboard-with-charts-and-gr.jpg 404 in 24ms (compile: 6ms, render: 18ms)
+ ⨯ The requested resource isn't a valid image for /modern-data-analytics-dashboard-with-charts-and-gr.jpg received null
+ ⨯ ReferenceError: barProgress is not defined
+    at <unknown> (components/data-visualizations.tsx:239:49)
+    at Array.map (<anonymous>)
+    at DataVisualizations (components/data-visualizations.tsx:233:24)
+  237 |                       className="bg-gradient-to-t from-cyan-600 to-cyan-400 rounded-t-lg transition-all duration-700 ease-out"
+  238 |                       style={{
+> 239 |                         height: `${bar.height * barProgress}%`,
+      |                                                 ^
+  240 |                         transition: "height 1.8s cubic-bezier(0.4, 0, 0.2, 1)"
+  241 |                       }}
+  242 |                     /> {
+  digest: '1686724073'
+}
+ GET / 500 in 111ms (compile: 44ms, render: 67ms)
+ GET /modern-data-analytics-dashboard-with-charts-and-gr.jpg 404 in 20ms (compile: 1782µs, render: 18ms)
+ ⨯ The requested resource isn't a valid image for /modern-data-analytics-dashboard-with-charts-and-gr.jpg received null
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 33ms
+ GET / 200 in 81ms (compile: 24ms, render: 57ms)
+ GET /modern-data-analytics-dashboard-with-charts-and-gr.jpg 404 in 21ms (compile: 3ms, render: 17ms)
+ ⨯ The requested resource isn't a valid image for /modern-data-analytics-dashboard-with-charts-and-gr.jpg received null
+ GET /business-strategy-meeting-with-data-charts.jpg 404 in 60ms (compile: 7ms, render: 54ms)
+ GET /data-infrastructure-and-cloud-computing.jpg 404 in 62ms (compile: 18ms, render: 44ms)
+ ⨯ The requested resource isn't a valid image for /business-strategy-meeting-with-data-charts.jpg received null
+ ⨯ The requested resource isn't a valid image for /data-infrastructure-and-cloud-computing.jpg received null
+ GET /interactive-business-intelligence-dashboard.jpg 404 in 66ms (compile: 39ms, render: 27ms)
+ ⨯ The requested resource isn't a valid image for /interactive-business-intelligence-dashboard.jpg received null
+ GET /automated-data-workflow-integration.jpg 404 in 51ms (compile: 6ms, render: 45ms)
+ ⨯ The requested resource isn't a valid image for /automated-data-workflow-integration.jpg received null
+ GET /professional-training-workshop-with-laptops.jpg 404 in 67ms (compile: 22ms, render: 46ms)
+ GET /data-security-and-privacy-protection.jpg 404 in 72ms (compile: 34ms, render: 38ms)
+ ⨯ The requested resource isn't a valid image for /professional-training-workshop-with-laptops.jpg received null
+ ⨯ The requested resource isn't a valid image for /data-security-and-privacy-protection.jpg received null
+ GET /evening-professional-training-session.jpg 404 in 43ms (compile: 4ms, render: 39ms)
+ ⨯ The requested resource isn't a valid image for /evening-professional-training-session.jpg received null
+ GET /data-analysis-training-with-charts.jpg 404 in 50ms (compile: 19ms, render: 31ms)
+ ⨯ The requested resource isn't a valid image for /data-analysis-training-with-charts.jpg received null
+ ✓ Compiled in 34ms
+ GET /data-privacy-and-compliance-training.jpg 404 in 31ms (compile: 3ms, render: 28ms)
+ GET /technical-data-engineering-workshop.jpg 404 in 35ms (compile: 11ms, render: 24ms)
+ ⨯ The requested resource isn't a valid image for /data-privacy-and-compliance-training.jpg received null
+ ⨯ The requested resource isn't a valid image for /technical-data-engineering-workshop.jpg received null
+ GET /professional-team-collaboration-on-data-project.jpg 404 in 25ms (compile: 8ms, render: 17ms)
+ ⨯ The requested resource isn't a valid image for /professional-team-collaboration-on-data-project.jpg received null
+ GET / 200 in 133ms (compile: 51ms, render: 82ms)
+ GET /modern-data-analytics-dashboard-with-charts-and-gr.jpg 404 in 19ms (compile: 2ms, render: 17ms)
+ ⨯ The requested resource isn't a valid image for /modern-data-analytics-dashboard-with-charts-and-gr.jpg received null
+ GET /business-strategy-meeting-with-data-charts.jpg 404 in 49ms (compile: 3ms, render: 46ms)
+ GET /data-infrastructure-and-cloud-computing.jpg 404 in 50ms (compile: 11ms, render: 39ms)
+ ⨯ The requested resource isn't a valid image for /business-strategy-meeting-with-data-charts.jpg received null
+ ⨯ The requested resource isn't a valid image for /data-infrastructure-and-cloud-computing.jpg received null
+ GET /interactive-business-intelligence-dashboard.jpg 404 in 53ms (compile: 29ms, render: 25ms)
+ ⨯ The requested resource isn't a valid image for /interactive-business-intelligence-dashboard.jpg received null
+ GET /automated-data-workflow-integration.jpg 404 in 44ms (compile: 5ms, render: 39ms)
+ ⨯ The requested resource isn't a valid image for /automated-data-workflow-integration.jpg received null
+ GET /professional-training-workshop-with-laptops.jpg 404 in 49ms (compile: 21ms, render: 27ms)
+ ⨯ The requested resource isn't a valid image for /professional-training-workshop-with-laptops.jpg received null
+ GET /data-security-and-privacy-protection.jpg 404 in 28ms (compile: 10ms, render: 18ms)
+ ⨯ The requested resource isn't a valid image for /data-security-and-privacy-protection.jpg received null
+ GET /evening-professional-training-session.jpg 404 in 31ms (compile: 1742µs, render: 29ms)
+ ⨯ The requested resource isn't a valid image for /evening-professional-training-session.jpg received null
+ GET /data-analysis-training-with-charts.jpg 404 in 35ms (compile: 15ms, render: 20ms)
+ ⨯ The requested resource isn't a valid image for /data-analysis-training-with-charts.jpg received null
+ GET /technical-data-engineering-workshop.jpg 404 in 35ms (compile: 3ms, render: 33ms)
+ GET /data-privacy-and-compliance-training.jpg 404 in 39ms (compile: 16ms, render: 23ms)
+ ⨯ The requested resource isn't a valid image for /technical-data-engineering-workshop.jpg received null
+ ⨯ The requested resource isn't a valid image for /data-privacy-and-compliance-training.jpg received null
+ GET /professional-team-collaboration-on-data-project.jpg 404 in 33ms (compile: 6ms, render: 27ms)
+ ⨯ The requested resource isn't a valid image for /professional-team-collaboration-on-data-project.jpg received null
+ ✓ Compiled in 34ms
+ ✓ Compiled in 40ms
+ ✓ Compiled in 40ms
+ ✓ Compiled in 31ms
+ ✓ Compiled in 26ms
+ ✓ Compiled in 31ms
+ GET / 200 in 132ms (compile: 51ms, render: 81ms)
+ GET /modern-data-analytics-dashboard-with-charts-and-gr.jpg 404 in 22ms (compile: 4ms, render: 18ms)
+ ⨯ The requested resource isn't a valid image for /modern-data-analytics-dashboard-with-charts-and-gr.jpg received null
+ GET /business-strategy-meeting-with-data-charts.jpg 404 in 28ms (compile: 6ms, render: 22ms)
+ ⨯ The requested resource isn't a valid image for /business-strategy-meeting-with-data-charts.jpg received null
+ GET /data-infrastructure-and-cloud-computing.jpg 404 in 25ms (compile: 6ms, render: 19ms)
+ ⨯ The requested resource isn't a valid image for /data-infrastructure-and-cloud-computing.jpg received null
+ GET /interactive-business-intelligence-dashboard.jpg 404 in 21ms (compile: 5ms, render: 16ms)
+ ⨯ The requested resource isn't a valid image for /interactive-business-intelligence-dashboard.jpg received null
+ GET /automated-data-workflow-integration.jpg 404 in 52ms (compile: 10ms, render: 42ms)
+ ⨯ The requested resource isn't a valid image for /automated-data-workflow-integration.jpg received null
+ GET /professional-training-workshop-with-laptops.jpg 404 in 54ms (compile: 21ms, render: 34ms)
+ GET /data-security-and-privacy-protection.jpg 404 in 54ms (compile: 26ms, render: 29ms)
+ ⨯ The requested resource isn't a valid image for /professional-training-workshop-with-laptops.jpg received null
+ ⨯ The requested resource isn't a valid image for /data-security-and-privacy-protection.jpg received null
+ GET /evening-professional-training-session.jpg 404 in 58ms (compile: 10ms, render: 48ms)
+ ⨯ The requested resource isn't a valid image for /evening-professional-training-session.jpg received null
+ GET /data-analysis-training-with-charts.jpg 404 in 64ms (compile: 35ms, render: 29ms)
+ ⨯ The requested resource isn't a valid image for /data-analysis-training-with-charts.jpg received null
+ GET /technical-data-engineering-workshop.jpg 404 in 35ms (compile: 1967µs, render: 33ms)
+ ⨯ The requested resource isn't a valid image for /technical-data-engineering-workshop.jpg received null
+ GET /data-privacy-and-compliance-training.jpg 404 in 37ms (compile: 17ms, render: 20ms)
+ ⨯ The requested resource isn't a valid image for /data-privacy-and-compliance-training.jpg received null
+ GET /professional-team-collaboration-on-data-project.jpg 404 in 17ms (compile: 2ms, render: 15ms)
+ ⨯ The requested resource isn't a valid image for /professional-team-collaboration-on-data-project.jpg received null
+ ✓ Compiled in 66ms
+ ✓ Compiled in 18ms
+ ✓ Compiled in 139ms
+ ✓ Compiled in 29ms
+ ✓ Compiled in 27ms
+ GET /technical-data-engineering-workshop.jpg 404 in 56ms (compile: 5ms, render: 51ms)
+ GET /data-analysis-training-with-charts.jpg 404 in 59ms (compile: 16ms, render: 44ms)
+ GET /evening-professional-training-session.jpg 404 in 64ms (compile: 25ms, render: 39ms)
+ ⨯ The requested resource isn't a valid image for /technical-data-engineering-workshop.jpg received null
+ ⨯ The requested resource isn't a valid image for /data-analysis-training-with-charts.jpg received null
+ ⨯ The requested resource isn't a valid image for /evening-professional-training-session.jpg received null
+ GET /data-privacy-and-compliance-training.jpg 404 in 34ms (compile: 5ms, render: 29ms)
+ ⨯ The requested resource isn't a valid image for /data-privacy-and-compliance-training.jpg received null
+ ✓ Compiled in 79ms
+ ✓ Compiled in 48ms
+ ✓ Compiled in 27ms
+ GET /data-security-and-privacy-protection.jpg 404 in 67ms (compile: 8ms, render: 58ms)
+ GET /professional-training-workshop-with-laptops.jpg 404 in 70ms (compile: 23ms, render: 47ms)
+ GET /business-strategy-meeting-with-data-charts.jpg 404 in 76ms (compile: 35ms, render: 42ms)
+ ⨯ The requested resource isn't a valid image for /data-security-and-privacy-protection.jpg received null
+ ⨯ The requested resource isn't a valid image for /professional-training-workshop-with-laptops.jpg received null
+ ⨯ The requested resource isn't a valid image for /business-strategy-meeting-with-data-charts.jpg received null
+ GET /data-infrastructure-and-cloud-computing.jpg 404 in 17ms (compile: 1956µs, render: 15ms)
+ ⨯ The requested resource isn't a valid image for /data-infrastructure-and-cloud-computing.jpg received null
+ GET / 200 in 182ms (compile: 57ms, render: 124ms)
+ GET /modern-data-analytics-dashboard-with-charts-and-gr.jpg 404 in 46ms (compile: 3ms, render: 42ms)
+ ⨯ The requested resource isn't a valid image for /modern-data-analytics-dashboard-with-charts-and-gr.jpg received null
+ GET /business-strategy-meeting-with-data-charts.jpg 404 in 49ms (compile: 19ms, render: 30ms)
+ GET /evening-professional-training-session.jpg 404 in 51ms (compile: 25ms, render: 26ms)
+ ⨯ The requested resource isn't a valid image for /business-strategy-meeting-with-data-charts.jpg received null
+ ⨯ The requested resource isn't a valid image for /evening-professional-training-session.jpg received null
+ GET /data-infrastructure-and-cloud-computing.jpg 404 in 16ms (compile: 1865µs, render: 14ms)
+ ⨯ The requested resource isn't a valid image for /data-infrastructure-and-cloud-computing.jpg received null
+ GET /data-security-and-privacy-protection.jpg 404 in 19ms (compile: 3ms, render: 16ms)
+ ⨯ The requested resource isn't a valid image for /data-security-and-privacy-protection.jpg received null
+ GET /data-analysis-training-with-charts.jpg 404 in 39ms (compile: 8ms, render: 31ms)
+ ⨯ The requested resource isn't a valid image for /data-analysis-training-with-charts.jpg received null
+ GET /technical-data-engineering-workshop.jpg 404 in 41ms (compile: 23ms, render: 19ms)
+ ⨯ The requested resource isn't a valid image for /technical-data-engineering-workshop.jpg received null
+ GET /interactive-business-intelligence-dashboard.jpg 404 in 32ms (compile: 3ms, render: 29ms)
+ ⨯ The requested resource isn't a valid image for /interactive-business-intelligence-dashboard.jpg received null
+ GET /data-privacy-and-compliance-training.jpg 404 in 35ms (compile: 18ms, render: 17ms)
+ ⨯ The requested resource isn't a valid image for /data-privacy-and-compliance-training.jpg received null
+ GET /automated-data-workflow-integration.jpg 404 in 19ms (compile: 3ms, render: 16ms)
+ ⨯ The requested resource isn't a valid image for /automated-data-workflow-integration.jpg received null
+ GET /professional-team-collaboration-on-data-project.jpg 404 in 23ms (compile: 1803µs, render: 21ms)
+ ⨯ The requested resource isn't a valid image for /professional-team-collaboration-on-data-project.jpg received null
+ GET /professional-training-workshop-with-laptops.jpg 404 in 33ms (compile: 10ms, render: 23ms)
+ ⨯ The requested resource isn't a valid image for /professional-training-workshop-with-laptops.jpg received null
+ ✓ Compiled in 43ms
+ GET /business-strategy-meeting-with-data-charts.jpg 404 in 67ms (compile: 10ms, render: 57ms)
+ GET /data-infrastructure-and-cloud-computing.jpg 404 in 69ms (compile: 23ms, render: 46ms)
+ ⨯ The requested resource isn't a valid image for /business-strategy-meeting-with-data-charts.jpg received null
+ ⨯ The requested resource isn't a valid image for /data-infrastructure-and-cloud-computing.jpg received null
+ GET /evening-professional-training-session.jpg 404 in 80ms (compile: 45ms, render: 35ms)
+ ⨯ The requested resource isn't a valid image for /evening-professional-training-session.jpg received null
+ GET /data-analysis-training-with-charts.jpg 404 in 56ms (compile: 26ms, render: 30ms)
+ ⨯ The requested resource isn't a valid image for /data-analysis-training-with-charts.jpg received null
+ GET /technical-data-engineering-workshop.jpg 404 in 44ms (compile: 25ms, render: 18ms)
+ ⨯ The requested resource isn't a valid image for /technical-data-engineering-workshop.jpg received null
+ GET /data-security-and-privacy-protection.jpg 404 in 18ms (compile: 1643µs, render: 16ms)
+ ⨯ The requested resource isn't a valid image for /data-security-and-privacy-protection.jpg received null
+ ✓ Compiled in 35ms
+ GET /business-strategy-meeting-with-data-charts.jpg 404 in 90ms (compile: 7ms, render: 83ms)
+ GET /data-infrastructure-and-cloud-computing.jpg 404 in 91ms (compile: 21ms, render: 70ms)
+ ⨯ The requested resource isn't a valid image for /business-strategy-meeting-with-data-charts.jpg received null
+ ⨯ The requested resource isn't a valid image for /data-infrastructure-and-cloud-computing.jpg received null
+ GET /evening-professional-training-session.jpg 404 in 94ms (compile: 46ms, render: 47ms)
+ GET /data-analysis-training-with-charts.jpg 404 in 95ms (compile: 54ms, render: 42ms)
+ GET /technical-data-engineering-workshop.jpg 404 in 97ms (compile: 61ms, render: 36ms)
+ ⨯ The requested resource isn't a valid image for /evening-professional-training-session.jpg received null
+ ⨯ The requested resource isn't a valid image for /data-analysis-training-with-charts.jpg received null
+ ⨯ The requested resource isn't a valid image for /technical-data-engineering-workshop.jpg received null
+ GET /data-security-and-privacy-protection.jpg 404 in 16ms (compile: 1763µs, render: 14ms)
+ ⨯ The requested resource isn't a valid image for /data-security-and-privacy-protection.jpg received null
+ GET /interactive-business-intelligence-dashboard.jpg 404 in 41ms (compile: 4ms, render: 37ms)
+ ⨯ The requested resource isn't a valid image for /interactive-business-intelligence-dashboard.jpg received null
+ GET /data-privacy-and-compliance-training.jpg 404 in 53ms (compile: 26ms, render: 28ms)
+ ⨯ The requested resource isn't a valid image for /data-privacy-and-compliance-training.jpg received null
+ ✓ Compiled in 53ms
+ GET /automated-data-workflow-integration.jpg 404 in 27ms (compile: 5ms, render: 23ms)
+ ⨯ The requested resource isn't a valid image for /automated-data-workflow-integration.jpg received null
+ ✓ Compiled in 13ms
+ GET /professional-training-workshop-with-laptops.jpg 404 in 31ms (compile: 3ms, render: 28ms)
+ ⨯ The requested resource isn't a valid image for /professional-training-workshop-with-laptops.jpg received null
+ GET /business-strategy-meeting-with-data-charts.jpg 404 in 33ms (compile: 2ms, render: 31ms)
+ ⨯ The requested resource isn't a valid image for /business-strategy-meeting-with-data-charts.jpg received null
+ ✓ Compiled in 37ms
+ GET /data-infrastructure-and-cloud-computing.jpg 404 in 37ms (compile: 16ms, render: 21ms)
+ ⨯ The requested resource isn't a valid image for /data-infrastructure-and-cloud-computing.jpg received null
+ GET /data-security-and-privacy-protection.jpg 404 in 23ms (compile: 2ms, render: 21ms)
+ ⨯ The requested resource isn't a valid image for /data-security-and-privacy-protection.jpg received null
+ ✓ Compiled in 32ms
+ GET /interactive-business-intelligence-dashboard.jpg 404 in 23ms (compile: 1935µs, render: 21ms)
+ ⨯ The requested resource isn't a valid image for /interactive-business-intelligence-dashboard.jpg received null
+ GET /automated-data-workflow-integration.jpg 404 in 43ms (compile: 8ms, render: 35ms)
+ ⨯ The requested resource isn't a valid image for /automated-data-workflow-integration.jpg received null
+ ✓ Compiled in 18ms
+ GET /evening-professional-training-session.jpg 404 in 58ms (compile: 5ms, render: 53ms)
+ ⨯ The requested resource isn't a valid image for /evening-professional-training-session.jpg received null
+ GET /data-analysis-training-with-charts.jpg 404 in 62ms (compile: 21ms, render: 41ms)
+ GET /technical-data-engineering-workshop.jpg 404 in 64ms (compile: 29ms, render: 36ms)
+ ⨯ The requested resource isn't a valid image for /data-analysis-training-with-charts.jpg received null
+ ⨯ The requested resource isn't a valid image for /technical-data-engineering-workshop.jpg received null
+ GET /professional-training-workshop-with-laptops.jpg 404 in 33ms (compile: 1939µs, render: 31ms)
+ ⨯ The requested resource isn't a valid image for /professional-training-workshop-with-laptops.jpg received null
+ GET /data-privacy-and-compliance-training.jpg 404 in 25ms (compile: 1852µs, render: 23ms)
+ ⨯ The requested resource isn't a valid image for /data-privacy-and-compliance-training.jpg received null
+ GET / 200 in 216ms (compile: 91ms, render: 125ms)
+ GET /business-strategy-meeting-with-data-charts.jpg 404 in 40ms (compile: 3ms, render: 37ms)
+ GET /evening-professional-training-session.jpg 404 in 42ms (compile: 10ms, render: 32ms)
+ ⨯ The requested resource isn't a valid image for /business-strategy-meeting-with-data-charts.jpg received null
+ ⨯ The requested resource isn't a valid image for /evening-professional-training-session.jpg received null
+ GET /modern-data-analytics-dashboard-with-charts-and-gr.jpg 404 in 55ms (compile: 30ms, render: 25ms)
+ ⨯ The requested resource isn't a valid image for /modern-data-analytics-dashboard-with-charts-and-gr.jpg received null
+ GET /data-infrastructure-and-cloud-computing.jpg 404 in 47ms (compile: 2ms, render: 44ms)
+ GET /data-analysis-training-with-charts.jpg 404 in 48ms (compile: 10ms, render: 38ms)
+ ⨯ The requested resource isn't a valid image for /data-infrastructure-and-cloud-computing.jpg received null
+ ⨯ The requested resource isn't a valid image for /data-analysis-training-with-charts.jpg received null
+ GET /technical-data-engineering-workshop.jpg 404 in 51ms (compile: 27ms, render: 23ms)
+ ⨯ The requested resource isn't a valid image for /technical-data-engineering-workshop.jpg received null
+ GET /data-security-and-privacy-protection.jpg 404 in 15ms (compile: 1671µs, render: 13ms)
+ ⨯ The requested resource isn't a valid image for /data-security-and-privacy-protection.jpg received null
+ GET /professional-training-workshop-with-laptops.jpg 404 in 37ms (compile: 2ms, render: 35ms)
+ ⨯ The requested resource isn't a valid image for /professional-training-workshop-with-laptops.jpg received null
+ GET /automated-data-workflow-integration.jpg 404 in 25ms (compile: 9ms, render: 15ms)
+ ⨯ The requested resource isn't a valid image for /automated-data-workflow-integration.jpg received null
+ GET /interactive-business-intelligence-dashboard.jpg 404 in 19ms (compile: 1707µs, render: 17ms)
+ ⨯ The requested resource isn't a valid image for /interactive-business-intelligence-dashboard.jpg received null
+ GET /data-privacy-and-compliance-training.jpg 404 in 32ms (compile: 1721µs, render: 30ms)
+ ⨯ The requested resource isn't a valid image for /data-privacy-and-compliance-training.jpg received null
+ ✓ Compiled in 57ms
+ ✓ Compiled in 30ms
+ ✓ Compiled in 28ms
+ ✓ Compiled in 37ms
+ GET /professional-team-collaboration-on-data-project.jpg 404 in 42ms (compile: 17ms, render: 24ms)
+ ⨯ The requested resource isn't a valid image for /professional-team-collaboration-on-data-project.jpg received null
+ ✓ Compiled in 27ms
+ ✓ Compiled in 44ms
+ ✓ Compiled in 32ms
+ GET / 200 in 185ms (compile: 83ms, render: 102ms)
+ GET /modern-data-analytics-dashboard-with-charts-and-gr.jpg 404 in 22ms (compile: 4ms, render: 18ms)
+ ⨯ The requested resource isn't a valid image for /modern-data-analytics-dashboard-with-charts-and-gr.jpg received null
+ GET /business-strategy-meeting-with-data-charts.jpg 404 in 86ms (compile: 18ms, render: 68ms)
+ GET /data-infrastructure-and-cloud-computing.jpg 404 in 83ms (compile: 22ms, render: 62ms)
+ GET /interactive-business-intelligence-dashboard.jpg 404 in 85ms (compile: 25ms, render: 59ms)
+ ⨯ The requested resource isn't a valid image for /business-strategy-meeting-with-data-charts.jpg received null
+ ⨯ The requested resource isn't a valid image for /data-infrastructure-and-cloud-computing.jpg received null
+ GET /automated-data-workflow-integration.jpg 404 in 82ms (compile: 43ms, render: 40ms)
+ GET /data-security-and-privacy-protection.jpg 404 in 84ms (compile: 51ms, render: 33ms)
+ ⨯ The requested resource isn't a valid image for /interactive-business-intelligence-dashboard.jpg received null
+ ⨯ The requested resource isn't a valid image for /automated-data-workflow-integration.jpg received null
+ ⨯ The requested resource isn't a valid image for /data-security-and-privacy-protection.jpg received null
+ GET /data-analysis-training-with-charts.jpg 404 in 20ms (compile: 1668µs, render: 18ms)
+ ⨯ The requested resource isn't a valid image for /data-analysis-training-with-charts.jpg received null
+ GET /evening-professional-training-session.jpg 404 in 47ms (compile: 3ms, render: 44ms)
+ GET /technical-data-engineering-workshop.jpg 404 in 49ms (compile: 9ms, render: 40ms)
+ ⨯ The requested resource isn't a valid image for /evening-professional-training-session.jpg received null
+ ⨯ The requested resource isn't a valid image for /technical-data-engineering-workshop.jpg received null
+ GET /data-privacy-and-compliance-training.jpg 404 in 54ms (compile: 28ms, render: 26ms)
+ ⨯ The requested resource isn't a valid image for /data-privacy-and-compliance-training.jpg received null
+ GET /professional-training-workshop-with-laptops.jpg 404 in 17ms (compile: 2ms, render: 14ms)
+ ⨯ The requested resource isn't a valid image for /professional-training-workshop-with-laptops.jpg received null
+ ✓ Compiled in 39ms
+ GET / 200 in 179ms (compile: 85ms, render: 94ms)
+ GET /modern-data-analytics-dashboard-with-charts-and-gr.jpg 404 in 22ms (compile: 3ms, render: 19ms)
+ ⨯ The requested resource isn't a valid image for /modern-data-analytics-dashboard-with-charts-and-gr.jpg received null
+ GET /business-strategy-meeting-with-data-charts.jpg 404 in 39ms (compile: 3ms, render: 37ms)
+ ⨯ The requested resource isn't a valid image for /business-strategy-meeting-with-data-charts.jpg received null
+ GET /evening-professional-training-session.jpg 404 in 47ms (compile: 17ms, render: 30ms)
+ ⨯ The requested resource isn't a valid image for /evening-professional-training-session.jpg received null
+ GET /professional-team-collaboration-on-data-project.jpg 404 in 49ms (compile: 29ms, render: 20ms)
+ ⨯ The requested resource isn't a valid image for /professional-team-collaboration-on-data-project.jpg received null
+ GET /data-infrastructure-and-cloud-computing.jpg 404 in 43ms (compile: 3ms, render: 41ms)
+ ⨯ The requested resource isn't a valid image for /data-infrastructure-and-cloud-computing.jpg received null
+ GET /data-analysis-training-with-charts.jpg 404 in 46ms (compile: 15ms, render: 31ms)
+ GET /technical-data-engineering-workshop.jpg 404 in 47ms (compile: 21ms, render: 26ms)
+ ⨯ The requested resource isn't a valid image for /data-analysis-training-with-charts.jpg received null
+ ⨯ The requested resource isn't a valid image for /technical-data-engineering-workshop.jpg received null
+ GET /data-security-and-privacy-protection.jpg 404 in 16ms (compile: 1538µs, render: 14ms)
+ ⨯ The requested resource isn't a valid image for /data-security-and-privacy-protection.jpg received null
+ GET /data-privacy-and-compliance-training.jpg 404 in 43ms (compile: 11ms, render: 32ms)
+ ⨯ The requested resource isn't a valid image for /data-privacy-and-compliance-training.jpg received null
+ GET /interactive-business-intelligence-dashboard.jpg 404 in 30ms (compile: 12ms, render: 17ms)
+ ⨯ The requested resource isn't a valid image for /interactive-business-intelligence-dashboard.jpg received null
+ GET /automated-data-workflow-integration.jpg 404 in 29ms (compile: 6ms, render: 24ms)
+ ⨯ The requested resource isn't a valid image for /automated-data-workflow-integration.jpg received null
+ GET /professional-training-workshop-with-laptops.jpg 404 in 45ms (compile: 5ms, render: 41ms)
+ ⨯ The requested resource isn't a valid image for /professional-training-workshop-with-laptops.jpg received null
+[?25h
+[0;36m[INFO][0m Detected pnpm (pnpm-lock.yaml found)
+[0;36m[INFO][0m Using package manager: pnpm
+[0;36m[INFO][0m No arguments provided, running 'dev' script...
+[0;36m[INFO][0m Running script: dev
+[0;36m[INFO][0m Executing: pnpm run dev
+
+> my-v0-project@0.1.0 dev /Users/pro/projects/frontend/3dp
+> next dev
+
+   ▲ Next.js 16.0.0 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.111:3000
+
+ ✓ Starting...
+ ✓ Ready in 699ms
+ GET / 200 in 2.5s (compile: 2.4s, render: 127ms)
+ GET /modern-data-analytics-dashboard-with-charts-and-gr.jpg 404 in 319ms (compile: 280ms, render: 39ms)
+ ⨯ The requested resource isn't a valid image for /modern-data-analytics-dashboard-with-charts-and-gr.jpg received null
+ GET /business-strategy-meeting-with-data-charts.jpg 404 in 58ms (compile: 6ms, render: 52ms)
+ GET /interactive-business-intelligence-dashboard.jpg 404 in 60ms (compile: 17ms, render: 43ms)
+ ⨯ The requested resource isn't a valid image for /business-strategy-meeting-with-data-charts.jpg received null
+ ⨯ The requested resource isn't a valid image for /interactive-business-intelligence-dashboard.jpg received null
+ GET /data-infrastructure-and-cloud-computing.jpg 404 in 68ms (compile: 42ms, render: 26ms)
+ ⨯ The requested resource isn't a valid image for /data-infrastructure-and-cloud-computing.jpg received null
+ GET /evening-professional-training-session.jpg 404 in 61ms (compile: 5ms, render: 55ms)
+ ⨯ The requested resource isn't a valid image for /evening-professional-training-session.jpg received null
+ GET /data-analysis-training-with-charts.jpg 404 in 65ms (compile: 20ms, render: 45ms)
+ GET /technical-data-engineering-workshop.jpg 404 in 65ms (compile: 30ms, render: 35ms)
+ ⨯ The requested resource isn't a valid image for /data-analysis-training-with-charts.jpg received null
+ ⨯ The requested resource isn't a valid image for /technical-data-engineering-workshop.jpg received null
+ GET /professional-team-collaboration-on-data-project.jpg 404 in 28ms (compile: 6ms, render: 21ms)
+ ⨯ The requested resource isn't a valid image for /professional-team-collaboration-on-data-project.jpg received null
+ GET /data-privacy-and-compliance-training.jpg 404 in 29ms (compile: 5ms, render: 24ms)
+ ⨯ The requested resource isn't a valid image for /data-privacy-and-compliance-training.jpg received null
+ GET /automated-data-workflow-integration.jpg 404 in 33ms (compile: 6ms, render: 28ms)
+ ⨯ The requested resource isn't a valid image for /automated-data-workflow-integration.jpg received null
+ GET /professional-training-workshop-with-laptops.jpg 404 in 24ms (compile: 3ms, render: 22ms)
+ ⨯ The requested resource isn't a valid image for /professional-training-workshop-with-laptops.jpg received null
+ GET /data-security-and-privacy-protection.jpg 404 in 42ms (compile: 6ms, render: 36ms)
+ ⨯ The requested resource isn't a valid image for /data-security-and-privacy-protection.jpg received null
+ ✓ Compiled in 56ms
+ GET /business-strategy-meeting-with-data-charts.jpg 404 in 44ms (compile: 6ms, render: 39ms)
+ ⨯ The requested resource isn't a valid image for /business-strategy-meeting-with-data-charts.jpg received null
+ GET /data-infrastructure-and-cloud-computing.jpg 404 in 81ms (compile: 23ms, render: 59ms)
+ GET /data-security-and-privacy-protection.jpg 404 in 85ms (compile: 30ms, render: 54ms)
+ ⨯ The requested resource isn't a valid image for /data-infrastructure-and-cloud-computing.jpg received null
+ ⨯ The requested resource isn't a valid image for /data-security-and-privacy-protection.jpg received null
+ GET /evening-professional-training-session.jpg 404 in 83ms (compile: 38ms, render: 45ms)
+ ⨯ The requested resource isn't a valid image for /evening-professional-training-session.jpg received null
+ GET /data-analysis-training-with-charts.jpg 404 in 98ms (compile: 50ms, render: 48ms)
+ ⨯ The requested resource isn't a valid image for /data-analysis-training-with-charts.jpg received null
+ GET /data-privacy-and-compliance-training.jpg 404 in 58ms (compile: 33ms, render: 24ms)
+ ⨯ The requested resource isn't a valid image for /data-privacy-and-compliance-training.jpg received null
+ GET /interactive-business-intelligence-dashboard.jpg 404 in 33ms (compile: 5ms, render: 27ms)
+ ⨯ The requested resource isn't a valid image for /interactive-business-intelligence-dashboard.jpg received null
+ GET /technical-data-engineering-workshop.jpg 404 in 33ms (compile: 6ms, render: 27ms)
+ ⨯ The requested resource isn't a valid image for /technical-data-engineering-workshop.jpg received null
+ ✓ Compiled in 37ms
+ GET /automated-data-workflow-integration.jpg 404 in 38ms (compile: 7ms, render: 31ms)
+ ⨯ The requested resource isn't a valid image for /automated-data-workflow-integration.jpg received null
+ GET /professional-training-workshop-with-laptops.jpg 404 in 35ms (compile: 4ms, render: 31ms)
+ ⨯ The requested resource isn't a valid image for /professional-training-workshop-with-laptops.jpg received null
+ ✓ Compiled in 27ms
+ ✓ Compiled in 30ms
+ ✓ Compiled in 46ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /modern-data-analytics-dashboard-with-charts-and-gr.jpg 404 in 29ms (compile: 5ms, render: 24ms)
+ ⨯ The requested resource isn't a valid image for /modern-data-analytics-dashboard-with-charts-and-gr.jpg received null
+ ✓ Compiled in 32ms
+ ⨯ ReferenceError: isVisible is not defined
+    at DataVisualizations (components/data-visualizations.tsx:120:7)
+  118 |       animatePie()
+  119 |     }
+> 120 |   }, [isVisible])
+      |       ^
+  121 |
+  122 |   const drawPath = (progress: number) => {
+  123 |     if (progress === 0) return "" {
+  digest: '3429782033'
+}
+ GET / 500 in 187ms (compile: 74ms, render: 113ms)
+ GET /modern-data-analytics-dashboard-with-charts-and-gr.jpg 404 in 17ms (compile: 2ms, render: 15ms)
+ ⨯ The requested resource isn't a valid image for /modern-data-analytics-dashboard-with-charts-and-gr.jpg received null
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 75ms
+ ⨯ ReferenceError: lineProgress is not defined
+    at DataVisualizations (components/data-visualizations.tsx:203:31)
+  201 |                 {/* Animated line path */}
+  202 |                 <path
+> 203 |                   d={drawPath(lineProgress)}
+      |                               ^
+  204 |                   fill="none"
+  205 |                   stroke="#10b981"
+  206 |                   strokeWidth="2" {
+  digest: '2818112848'
+}
+ GET / 500 in 142ms (compile: 53ms, render: 89ms)
+ GET /modern-data-analytics-dashboard-with-charts-and-gr.jpg 404 in 17ms (compile: 2ms, render: 15ms)
+ ⨯ The requested resource isn't a valid image for /modern-data-analytics-dashboard-with-charts-and-gr.jpg received null
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 32ms
+ ⨯ ReferenceError: lineProgress is not defined
+    at DataVisualizations (components/data-visualizations.tsx:203:31)
+  201 |                 {/* Animated line path */}
+  202 |                 <path
+> 203 |                   d={drawPath(lineProgress)}
+      |                               ^
+  204 |                   fill="none"
+  205 |                   stroke="#10b981"
+  206 |                   strokeWidth="2" {
+  digest: '2818112848'
+}
+ GET / 500 in 167ms (compile: 64ms, render: 102ms)
+ GET /modern-data-analytics-dashboard-with-charts-and-gr.jpg 404 in 18ms (compile: 1779µs, render: 16ms)
+ ⨯ The requested resource isn't a valid image for /modern-data-analytics-dashboard-with-charts-and-gr.jpg received null
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 28ms
+ ⨯ ReferenceError: drawPath is not defined
+    at DataVisualizations (components/data-visualizations.tsx:177:22)
+  175 |                 {/* Animated line path */}
+  176 |                 <path
+> 177 |                   d={drawPath(lineProgress)}
+      |                      ^
+  178 |                   fill="none"
+  179 |                   stroke="#10b981"
+  180 |                   strokeWidth="2" {
+  digest: '2339151726'
+}
+ GET / 500 in 140ms (compile: 63ms, render: 77ms)
+ GET /modern-data-analytics-dashboard-with-charts-and-gr.jpg 404 in 18ms (compile: 1694µs, render: 17ms)
+ ⨯ The requested resource isn't a valid image for /modern-data-analytics-dashboard-with-charts-and-gr.jpg received null
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 52ms
+ GET / 200 in 180ms (compile: 62ms, render: 118ms)
+ GET /modern-data-analytics-dashboard-with-charts-and-gr.jpg 404 in 20ms (compile: 4ms, render: 16ms)
+ ⨯ The requested resource isn't a valid image for /modern-data-analytics-dashboard-with-charts-and-gr.jpg received null
+ GET /business-strategy-meeting-with-data-charts.jpg 404 in 63ms (compile: 9ms, render: 54ms)
+ GET /interactive-business-intelligence-dashboard.jpg 404 in 65ms (compile: 18ms, render: 46ms)
+ ⨯ The requested resource isn't a valid image for /business-strategy-meeting-with-data-charts.jpg received null
+ ⨯ The requested resource isn't a valid image for /interactive-business-intelligence-dashboard.jpg received null
+ GET /automated-data-workflow-integration.jpg 404 in 76ms (compile: 39ms, render: 37ms)
+ ⨯ The requested resource isn't a valid image for /automated-data-workflow-integration.jpg received null
+ GET /professional-training-workshop-with-laptops.jpg 404 in 61ms (compile: 29ms, render: 32ms)
+ ⨯ The requested resource isn't a valid image for /professional-training-workshop-with-laptops.jpg received null
+ GET /data-security-and-privacy-protection.jpg 404 in 48ms (compile: 26ms, render: 22ms)
+ ⨯ The requested resource isn't a valid image for /data-security-and-privacy-protection.jpg received null
+ GET /data-infrastructure-and-cloud-computing.jpg 404 in 31ms (compile: 4ms, render: 27ms)
+ ⨯ The requested resource isn't a valid image for /data-infrastructure-and-cloud-computing.jpg received null
+ GET /evening-professional-training-session.jpg 404 in 24ms (compile: 6ms, render: 18ms)
+ ⨯ The requested resource isn't a valid image for /evening-professional-training-session.jpg received null
+ GET /technical-data-engineering-workshop.jpg 404 in 36ms (compile: 6ms, render: 29ms)
+ GET /data-privacy-and-compliance-training.jpg 404 in 37ms (compile: 13ms, render: 24ms)
+ ⨯ The requested resource isn't a valid image for /technical-data-engineering-workshop.jpg received null
+ ⨯ The requested resource isn't a valid image for /data-privacy-and-compliance-training.jpg received null
+ GET /data-analysis-training-with-charts.jpg 404 in 28ms (compile: 6ms, render: 22ms)
+ ⨯ The requested resource isn't a valid image for /data-analysis-training-with-charts.jpg received null
+ ✓ Compiled in 39ms
+ ✓ Compiled in 30ms
+ GET / 200 in 131ms (compile: 95ms, render: 36ms)
+ ✓ Compiled in 30ms
+ GET /professional-team-collaboration-on-data-project.jpg 404 in 29ms (compile: 13ms, render: 16ms)
+ ⨯ The requested resource isn't a valid image for /professional-team-collaboration-on-data-project.jpg received null
+ GET / 200 in 187ms (compile: 85ms, render: 102ms)
+ GET /business-strategy-meeting-with-data-charts.jpg 404 in 29ms (compile: 4ms, render: 25ms)
+ ⨯ The requested resource isn't a valid image for /business-strategy-meeting-with-data-charts.jpg received null
+ GET /data-infrastructure-and-cloud-computing.jpg 404 in 50ms (compile: 18ms, render: 32ms)
+ ⨯ The requested resource isn't a valid image for /data-infrastructure-and-cloud-computing.jpg received null
+ GET /evening-professional-training-session.jpg 404 in 43ms (compile: 20ms, render: 22ms)
+ ⨯ The requested resource isn't a valid image for /evening-professional-training-session.jpg received null
+ GET /data-analysis-training-with-charts.jpg 404 in 42ms (compile: 4ms, render: 38ms)
+ ⨯ The requested resource isn't a valid image for /data-analysis-training-with-charts.jpg received null
+ GET /professional-team-collaboration-on-data-project.jpg 404 in 50ms (compile: 16ms, render: 34ms)
+ ⨯ The requested resource isn't a valid image for /professional-team-collaboration-on-data-project.jpg received null
+ GET /modern-data-analytics-dashboard-with-charts-and-gr.jpg 404 in 53ms (compile: 27ms, render: 26ms)
+ ⨯ The requested resource isn't a valid image for /modern-data-analytics-dashboard-with-charts-and-gr.jpg received null
+ GET /interactive-business-intelligence-dashboard.jpg 404 in 66ms (compile: 5ms, render: 62ms)
+ GET /automated-data-workflow-integration.jpg 404 in 68ms (compile: 11ms, render: 57ms)
+ GET /data-security-and-privacy-protection.jpg 404 in 70ms (compile: 17ms, render: 53ms)
+ GET /technical-data-engineering-workshop.jpg 404 in 74ms (compile: 22ms, render: 52ms)
+ ⨯ The requested resource isn't a valid image for /interactive-business-intelligence-dashboard.jpg received null
+ ⨯ The requested resource isn't a valid image for /automated-data-workflow-integration.jpg received null
+ ⨯ The requested resource isn't a valid image for /data-security-and-privacy-protection.jpg received null
+ ⨯ The requested resource isn't a valid image for /technical-data-engineering-workshop.jpg received null
+ GET /data-privacy-and-compliance-training.jpg 404 in 78ms (compile: 50ms, render: 28ms)
+ ⨯ The requested resource isn't a valid image for /data-privacy-and-compliance-training.jpg received null
+ GET /professional-training-workshop-with-laptops.jpg 404 in 33ms (compile: 14ms, render: 18ms)
+ ⨯ The requested resource isn't a valid image for /professional-training-workshop-with-laptops.jpg received null
+ ✓ Compiled in 32ms
+ GET / 200 in 166ms (compile: 68ms, render: 98ms)
+ GET /modern-data-analytics-dashboard-with-charts-and-gr.jpg 404 in 16ms (compile: 3ms, render: 14ms)
+ ⨯ The requested resource isn't a valid image for /modern-data-analytics-dashboard-with-charts-and-gr.jpg received null
+ ✓ Compiled in 54ms
+ ✓ Compiled in 37ms
+ GET /business-strategy-meeting-with-data-charts.jpg 404 in 53ms (compile: 7ms, render: 45ms)
+ ⨯ The requested resource isn't a valid image for /business-strategy-meeting-with-data-charts.jpg received null
+ GET /data-infrastructure-and-cloud-computing.jpg 404 in 68ms (compile: 23ms, render: 45ms)
+ ⨯ The requested resource isn't a valid image for /data-infrastructure-and-cloud-computing.jpg received null
+ GET /interactive-business-intelligence-dashboard.jpg 404 in 77ms (compile: 34ms, render: 43ms)
+ GET /automated-data-workflow-integration.jpg 404 in 77ms (compile: 40ms, render: 37ms)
+ ⨯ The requested resource isn't a valid image for /interactive-business-intelligence-dashboard.jpg received null
+ ⨯ The requested resource isn't a valid image for /automated-data-workflow-integration.jpg received null
+ GET /professional-training-workshop-with-laptops.jpg 404 in 69ms (compile: 36ms, render: 33ms)
+ ⨯ The requested resource isn't a valid image for /professional-training-workshop-with-laptops.jpg received null
+ GET /data-security-and-privacy-protection.jpg 404 in 43ms (compile: 23ms, render: 20ms)
+ ⨯ The requested resource isn't a valid image for /data-security-and-privacy-protection.jpg received null
+ GET /evening-professional-training-session.jpg 404 in 57ms (compile: 6ms, render: 50ms)
+ ⨯ The requested resource isn't a valid image for /evening-professional-training-session.jpg received null
+ GET /technical-data-engineering-workshop.jpg 404 in 73ms (compile: 25ms, render: 48ms)
+ ⨯ The requested resource isn't a valid image for /technical-data-engineering-workshop.jpg received null
+ GET /data-privacy-and-compliance-training.jpg 404 in 81ms (compile: 42ms, render: 38ms)
+ ⨯ The requested resource isn't a valid image for /data-privacy-and-compliance-training.jpg received null
+ GET /professional-team-collaboration-on-data-project.jpg 404 in 62ms (compile: 41ms, render: 21ms)
+ ⨯ The requested resource isn't a valid image for /professional-team-collaboration-on-data-project.jpg received null
+ GET /data-analysis-training-with-charts.jpg 404 in 21ms (compile: 3ms, render: 18ms)
+ ⨯ The requested resource isn't a valid image for /data-analysis-training-with-charts.jpg received null
+ ✓ Compiled in 46ms
+ ✓ Compiled in 41ms
+ ✓ Compiled in 37ms
+ GET / 200 in 182ms (compile: 80ms, render: 102ms)
+ GET /business-strategy-meeting-with-data-charts.jpg 404 in 57ms (compile: 9ms, render: 48ms)
+ GET /data-infrastructure-and-cloud-computing.jpg 404 in 59ms (compile: 15ms, render: 44ms)
+ GET /modern-data-analytics-dashboard-with-charts-and-gr.jpg 404 in 62ms (compile: 23ms, render: 40ms)
+ ⨯ The requested resource isn't a valid image for /business-strategy-meeting-with-data-charts.jpg received null
+ ⨯ The requested resource isn't a valid image for /data-infrastructure-and-cloud-computing.jpg received null
+ ⨯ The requested resource isn't a valid image for /modern-data-analytics-dashboard-with-charts-and-gr.jpg received null
+ GET /evening-professional-training-session.jpg 404 in 62ms (compile: 40ms, render: 22ms)
+ ⨯ The requested resource isn't a valid image for /evening-professional-training-session.jpg received null
+ GET /data-analysis-training-with-charts.jpg 404 in 20ms (compile: 5ms, render: 15ms)
+ ⨯ The requested resource isn't a valid image for /data-analysis-training-with-charts.jpg received null
+ GET /data-security-and-privacy-protection.jpg 404 in 31ms (compile: 1595µs, render: 29ms)
+ GET /data-privacy-and-compliance-training.jpg 404 in 33ms (compile: 14ms, render: 19ms)
+ ⨯ The requested resource isn't a valid image for /data-security-and-privacy-protection.jpg received null
+ ⨯ The requested resource isn't a valid image for /data-privacy-and-compliance-training.jpg received null
+ GET /technical-data-engineering-workshop.jpg 404 in 37ms (compile: 6ms, render: 31ms)
+ ⨯ The requested resource isn't a valid image for /technical-data-engineering-workshop.jpg received null
+ GET /interactive-business-intelligence-dashboard.jpg 404 in 27ms (compile: 2ms, render: 25ms)
+ ⨯ The requested resource isn't a valid image for /interactive-business-intelligence-dashboard.jpg received null
+ GET / 200 in 54ms (compile: 5ms, render: 50ms)
+ GET /modern-data-analytics-dashboard-with-charts-and-gr.jpg 404 in 14ms (compile: 1490µs, render: 13ms)
+ ⨯ The requested resource isn't a valid image for /modern-data-analytics-dashboard-with-charts-and-gr.jpg received null
+ GET /business-strategy-meeting-with-data-charts.jpg 404 in 42ms (compile: 2ms, render: 39ms)
+ GET /data-security-and-privacy-protection.jpg 404 in 43ms (compile: 8ms, render: 34ms)
+ ⨯ The requested resource isn't a valid image for /business-strategy-meeting-with-data-charts.jpg received null
+ ⨯ The requested resource isn't a valid image for /data-security-and-privacy-protection.jpg received null
+ GET /data-infrastructure-and-cloud-computing.jpg 404 in 45ms (compile: 25ms, render: 21ms)
+ ⨯ The requested resource isn't a valid image for /data-infrastructure-and-cloud-computing.jpg received null
+ GET /evening-professional-training-session.jpg 404 in 44ms (compile: 6ms, render: 38ms)
+ GET /data-analysis-training-with-charts.jpg 404 in 44ms (compile: 11ms, render: 33ms)
+ ⨯ The requested resource isn't a valid image for /evening-professional-training-session.jpg received null
+ ⨯ The requested resource isn't a valid image for /data-analysis-training-with-charts.jpg received null
+ GET /data-privacy-and-compliance-training.jpg 404 in 45ms (compile: 26ms, render: 20ms)
+ ⨯ The requested resource isn't a valid image for /data-privacy-and-compliance-training.jpg received null
+ GET /professional-team-collaboration-on-data-project.jpg 404 in 33ms (compile: 6ms, render: 26ms)
+ ⨯ The requested resource isn't a valid image for /professional-team-collaboration-on-data-project.jpg received null
+ GET /technical-data-engineering-workshop.jpg 404 in 35ms (compile: 8ms, render: 27ms)
+ ⨯ The requested resource isn't a valid image for /technical-data-engineering-workshop.jpg received null
+ GET /interactive-business-intelligence-dashboard.jpg 404 in 24ms (compile: 4ms, render: 20ms)
+ ⨯ The requested resource isn't a valid image for /interactive-business-intelligence-dashboard.jpg received null
+ GET /automated-data-workflow-integration.jpg 404 in 48ms (compile: 6ms, render: 42ms)
+ ⨯ The requested resource isn't a valid image for /automated-data-workflow-integration.jpg received null
+ GET /professional-training-workshop-with-laptops.jpg 404 in 33ms (compile: 7ms, render: 25ms)
+ ⨯ The requested resource isn't a valid image for /professional-training-workshop-with-laptops.jpg received null
+ GET / 200 in 57ms (compile: 5ms, render: 52ms)
+ GET /modern-data-analytics-dashboard-with-charts-and-gr.jpg 404 in 36ms (compile: 5ms, render: 31ms)
+ ⨯ The requested resource isn't a valid image for /modern-data-analytics-dashboard-with-charts-and-gr.jpg received null
+ GET /business-strategy-meeting-with-data-charts.jpg 404 in 50ms (compile: 23ms, render: 27ms)
+ ⨯ The requested resource isn't a valid image for /business-strategy-meeting-with-data-charts.jpg received null
+ GET /data-infrastructure-and-cloud-computing.jpg 404 in 45ms (compile: 19ms, render: 26ms)
+ ⨯ The requested resource isn't a valid image for /data-infrastructure-and-cloud-computing.jpg received null
+ GET /evening-professional-training-session.jpg 404 in 36ms (compile: 18ms, render: 18ms)
+ ⨯ The requested resource isn't a valid image for /evening-professional-training-session.jpg received null
+ GET /data-analysis-training-with-charts.jpg 404 in 14ms (compile: 2ms, render: 12ms)
+ ⨯ The requested resource isn't a valid image for /data-analysis-training-with-charts.jpg received null
+ GET /data-security-and-privacy-protection.jpg 404 in 14ms (compile: 1516µs, render: 13ms)
+ ⨯ The requested resource isn't a valid image for /data-security-and-privacy-protection.jpg received null
+ ✓ Compiled in 36ms
+ GET /interactive-business-intelligence-dashboard.jpg 404 in 53ms (compile: 37ms, render: 15ms)
+ ⨯ The requested resource isn't a valid image for /interactive-business-intelligence-dashboard.jpg received null
+ ✓ Compiled in 27ms
+ GET /automated-data-workflow-integration.jpg 404 in 18ms (compile: 2ms, render: 16ms)
+ ⨯ The requested resource isn't a valid image for /automated-data-workflow-integration.jpg received null
+ GET /professional-training-workshop-with-laptops.jpg 404 in 42ms (compile: 7ms, render: 35ms)
+ ⨯ The requested resource isn't a valid image for /professional-training-workshop-with-laptops.jpg received null
+ GET /technical-data-engineering-workshop.jpg 404 in 27ms (compile: 9ms, render: 18ms)
+ ⨯ The requested resource isn't a valid image for /technical-data-engineering-workshop.jpg received null
+ ✓ Compiled in 49ms
+ GET /data-privacy-and-compliance-training.jpg 404 in 38ms (compile: 17ms, render: 20ms)
+ ⨯ The requested resource isn't a valid image for /data-privacy-and-compliance-training.jpg received null
+ ✓ Compiled in 42ms
+ ✓ Compiled in 31ms
+ GET / 200 in 226ms (compile: 107ms, render: 119ms)
+ GET / 200 in 59ms (compile: 7ms, render: 52ms)
+ ✓ Compiled in 43ms
+ ✓ Compiled in 31ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 34ms
+ GET / 200 in 198ms (compile: 87ms, render: 111ms)
+ ✓ Compiled in 238ms
+ GET / 200 in 196ms (compile: 163ms, render: 34ms)
+ GET / 200 in 16ms (compile: 3ms, render: 13ms)
+ GET / 200 in 8ms (compile: 981µs, render: 7ms)
+ GET / 200 in 92ms (compile: 1754µs, render: 90ms)
+ ✓ Compiled in 139ms
+ GET / 200 in 156ms (compile: 130ms, render: 26ms)
+ GET / 200 in 22ms (compile: 3ms, render: 19ms)
+ GET / 200 in 13ms (compile: 2ms, render: 11ms)
+ GET / 200 in 12ms (compile: 1688µs, render: 10ms)
+ GET / 200 in 15ms (compile: 1461µs, render: 14ms)
+ GET / 200 in 11ms (compile: 1455µs, render: 10ms)
+ GET / 200 in 10ms (compile: 1260µs, render: 9ms)
+ GET / 200 in 12ms (compile: 1395µs, render: 10ms)
+ ✓ Compiled in 22ms
+ ✓ Compiled in 43ms
+ GET /3dp-logo.svg 404 in 132ms (compile: 84ms, render: 49ms)
+ ✓ Compiled in 31ms
+ GET / 200 in 174ms (compile: 73ms, render: 102ms)
+ GET /3dp-logo.svg 404 in 20ms (compile: 2ms, render: 18ms)
+ ✓ Compiled in 30ms
+ GET /3dp-logo.svg 404 in 37ms (compile: 9ms, render: 28ms)
+ GET / 200 in 171ms (compile: 91ms, render: 80ms)
+ GET /3dp-logo.svg 404 in 18ms (compile: 1838µs, render: 16ms)
+ ✓ Compiled in 36ms
+ ✓ Compiled in 29ms
+ ✓ Compiled in 28ms
+ ✓ Compiled in 42ms
+ ✓ Compiled in 38ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 50ms
+ GET / 200 in 162ms (compile: 71ms, render: 91ms)
+ ✓ Compiled in 35ms
+ ✓ Compiled in 29ms
+ ✓ Compiled in 29ms
+ ✓ Compiled in 32ms
+ ✓ Compiled in 25ms
+ ✓ Compiled in 40ms
+ ✓ Compiled in 29ms
+ ✓ Compiled in 27ms
+ ✓ Compiled in 25ms
+ ✓ Compiled in 25ms
+ ✓ Compiled in 24ms
+ ✓ Compiled in 49ms
+ ✓ Compiled in 21ms
+ ✓ Compiled in 72ms
