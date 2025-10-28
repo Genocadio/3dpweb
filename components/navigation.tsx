@@ -44,7 +44,9 @@ export function Navigation() {
             <a href="#about" className="text-foreground/80 hover:text-foreground transition-colors">
               About
             </a>
-            <Button className="rounded-full">Get Started</Button>
+            <Button className="rounded-full" asChild>
+              <a href="https://3dp-admin-portal.vercel.app/">Get Started</a>
+            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -77,7 +79,9 @@ export function Navigation() {
             >
               About
             </a>
-            <Button className="w-full rounded-full">Get Started</Button>
+            <Button className="w-full rounded-full" asChild>
+              <a href="https://3dp-admin-portal.vercel.app/">Get Started</a>
+            </Button>
           </div>
         )}
       </div>

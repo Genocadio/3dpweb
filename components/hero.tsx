@@ -58,9 +58,11 @@ export function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="rounded-full text-lg group">
-                Get Started
-                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              <Button size="lg" className="rounded-full text-lg group" asChild>
+                <a href="https://3dp-admin-portal.vercel.app/">
+                  Get Started
+                  <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                </a>
               </Button>
               <Button size="lg" variant="outline" className="rounded-full text-lg bg-transparent" asChild>
                 <a href="#services">

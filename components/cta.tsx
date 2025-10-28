@@ -30,8 +30,8 @@ export function CTA() {
                     <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                   </a>
                 </Button>
-                <Button size="lg" variant="outline" className="rounded-full text-lg bg-transparent">
-                  Get Started
+                <Button size="lg" variant="outline" className="rounded-full text-lg bg-transparent" asChild>
+                  <a href="https://3dp-admin-portal.vercel.app/">Get Started</a>
                 </Button>
               </div>
             </div>
