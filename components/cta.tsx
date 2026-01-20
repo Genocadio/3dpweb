@@ -31,7 +31,7 @@ export function CTA() {
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" className="rounded-full text-lg bg-transparent" asChild>
-                  <a href="https://3dp-admin-portal.vercel.app/">Get Started</a>
+                  <a href="https://3dp-admin-portal.vercel.app/">Data Maturity Assessment</a>
                 </Button>
               </div>
             </div>

@@ -5,6 +5,7 @@ import { TrendingUp, BarChart3, Database, CheckCircle, Target, Zap } from "lucid
 
 export function DataVisualizations() {
   const [isVisible, setIsVisible] = useState(false)
+  const [isMounted, setIsMounted] = useState(false)
   const [stepsProgress, setStepsProgress] = useState(0)
   const [barProgresses, setBarProgresses] = useState([0, 0, 0, 0])
   const [pieProgress, setPieProgress] = useState(0)
@@ -34,6 +35,10 @@ export function DataVisualizations() {
     { startAngle: 198, endAngle: 270, color: "#0891b2", label: "Integration" },
     { startAngle: 270, endAngle: 360, color: "#0e7490", label: "Training" },
   ]
+
+  useEffect(() => {
+    setIsMounted(true)
+  }, [])
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -252,33 +257,35 @@ export function DataVisualizations() {
                 </g>
               </svg>
               {/* Radial Labels */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <svg width="100%" height="100%" viewBox="0 0 200 200" preserveAspectRatio="xMidYMid" className="pointer-events-none">
-                  <g transform="translate(100,100)">
-                    {pieSegments.map((segment, idx) => {
-                      const midAngle = (segment.startAngle + segment.endAngle) / 2
-                      const midRad = ((midAngle - 90) * Math.PI) / 180
-                      const labelRadius = 95
-                      const x = Math.cos(midRad) * labelRadius
-                      const y = Math.sin(midRad) * labelRadius
-                      
-                      return (
-                        <text
-                          key={`label-${idx}`}
-                          x={x}
-                          y={y}
-                          textAnchor="middle"
-                          dominantBaseline="middle"
-                          className="text-xs md:text-sm font-semibold fill-muted-foreground"
-                          style={{ fontSize: "11px" }}
-                        >
-                          {segment.label}
-                        </text>
-                      )
-                    })}
-                  </g>
-                </svg>
-              </div>
+              {isMounted && (
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <svg width="100%" height="100%" viewBox="0 0 200 200" preserveAspectRatio="xMidYMid" className="pointer-events-none">
+                    <g transform="translate(100,100)">
+                      {pieSegments.map((segment, idx) => {
+                        const midAngle = (segment.startAngle + segment.endAngle) / 2
+                        const midRad = ((midAngle - 90) * Math.PI) / 180
+                        const labelRadius = 95
+                        const x = Math.cos(midRad) * labelRadius
+                        const y = Math.sin(midRad) * labelRadius
+                        
+                        return (
+                          <text
+                            key={`label-${idx}`}
+                            x={x}
+                            y={y}
+                            textAnchor="middle"
+                            dominantBaseline="middle"
+                            className="text-xs md:text-sm font-semibold fill-muted-foreground"
+                            style={{ fontSize: "11px" }}
+                          >
+                            {segment.label}
+                          </text>
+                        )
+                      })}
+                    </g>
+                  </svg>
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -402,67 +409,40 @@ export function DataVisualizations() {
                 </g>
               </svg>
               {/* Radial Labels */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <svg width="100%" height="100%" viewBox="0 0 200 200" preserveAspectRatio="xMidYMid" className="pointer-events-none">
-                  <g transform="translate(100,100)">
-                    {pieSegments.map((segment, idx) => {
-                      const midAngle = (segment.startAngle + segment.endAngle) / 2
-                      const midRad = ((midAngle - 90) * Math.PI) / 180
-                      const labelRadius = 95
-                      const x = Math.cos(midRad) * labelRadius
-                      const y = Math.sin(midRad) * labelRadius
-                      
-                      return (
-                        <text
-                          key={`label-${idx}`}
-                          x={x}
-                          y={y}
-                          textAnchor="middle"
-                          dominantBaseline="middle"
-                          className="text-xs md:text-sm font-semibold fill-muted-foreground"
-                          style={{ fontSize: "11px" }}
-                        >
-                          {segment.label}
-                        </text>
-                      )
-                    })}
-                  </g>
-                </svg>
-              </div>
+              {isMounted && (
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <svg width="100%" height="100%" viewBox="0 0 200 200" preserveAspectRatio="xMidYMid" className="pointer-events-none">
+                    <g transform="translate(100,100)">
+                      {pieSegments.map((segment, idx) => {
+                        const midAngle = (segment.startAngle + segment.endAngle) / 2
+                        const midRad = ((midAngle - 90) * Math.PI) / 180
+                        const labelRadius = 95
+                        const x = Math.cos(midRad) * labelRadius
+                        const y = Math.sin(midRad) * labelRadius
+                        
+                        return (
+                          <text
+                            key={`label-${idx}`}
+                            x={x}
+                            y={y}
+                            textAnchor="middle"
+                            dominantBaseline="middle"
+                            className="text-xs md:text-sm font-semibold fill-muted-foreground"
+                            style={{ fontSize: "11px" }}
+                          >
+                            {segment.label}
+                          </text>
+                        )
+                      })}
+                    </g>
+                  </svg>
+                </div>
+              )}
             </div>
           </div>
         </div>
 
-        {/* Bottom stats row */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
-          <div className="glass-card p-6 rounded-2xl flex items-center gap-4">
-            <div className="p-3 rounded-xl bg-primary/10">
-              <Zap className="w-6 h-6 text-primary" />
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold">Data Quality</h4>
-              <p className="text-sm text-muted-foreground">Exceptional Standards</p>
-            </div>
-          </div>
-          <div className="glass-card p-6 rounded-2xl flex items-center gap-4">
-            <div className="p-3 rounded-xl bg-cyan-500/10">
-              <Target className="w-6 h-6 text-cyan-400" />
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold">Strategic Impact</h4>
-              <p className="text-sm text-muted-foreground">Measurable Results</p>
-            </div>
-          </div>
-          <div className="glass-card p-6 rounded-2xl flex items-center gap-4">
-            <div className="p-3 rounded-xl bg-cyan-600/10">
-              <CheckCircle className="w-6 h-6 text-cyan-500" />
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold">Analytical Excellence</h4>
-              <p className="text-sm text-muted-foreground">Proven Methodology</p>
-            </div>
-          </div>
-        </div>
+
       </div>
 
       <style jsx>{`

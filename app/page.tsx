@@ -8,6 +8,7 @@ import { CTA } from "@/components/cta"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { DataVisualizations } from "@/components/data-visualizations"
+import { WhoCanWeHelp } from "@/components/who-can-we-help"
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero />
       <DataVisualizations />
       <AboutUs />
+      <WhoCanWeHelp />
       <Services />
       <Training />
       <CTA />

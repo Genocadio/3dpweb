@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "3DP DataPro - Empower Your Data Strategy",
   description:
     "Transform your organization with strategic data solutions. From strategy to implementation, we help you turn data into actionable insights.",
-  generator: "v0.app",
+  authors: [{ name: "Geno Yves Cadiot" }],
 }
 
 export default function RootLayout({

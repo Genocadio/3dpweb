@@ -65,21 +65,23 @@ export function Footer() {
   }
 
   return (
-    <footer className="relative py-16 border-t border-border">
+    <footer className="relative py-16 border-t border-white/20" style={{ backgroundColor: "#102C43" }}>
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <Image 
-                src="/loggo.webp" 
-                alt="3DP DataPro Logo" 
-                width={280} 
-                height={120}
-                className="h-16 w-auto"
-              />
+              <div className="bg-white/10 backdrop-blur-md border border-white/60 rounded-xl px-3 py-2">
+                <Image 
+                  src="/loggo.webp" 
+                  alt="3DP DataPro Logo" 
+                  width={280} 
+                  height={120}
+                  className="h-16 w-auto"
+                />
+              </div>
             </div>
-            <p className="text-muted-foreground leading-relaxed">
+            <p className="text-white/80 leading-relaxed">
               Empowering businesses to discover and harness the full potential of data.
             </p>
             
@@ -89,62 +91,62 @@ export function Footer() {
                 href="https://x.com/3dpRwanda" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="p-2 rounded-full bg-muted hover:bg-primary hover:text-primary-foreground transition-all duration-300 transform hover:scale-110"
+                className="group p-2 rounded-full bg-white/10 hover:bg-primary transition-all duration-300 transform hover:scale-110"
                 aria-label="Twitter"
               >
-                <Twitter className="w-5 h-5" />
+                <Twitter className="w-5 h-5 text-white/80 group-hover:text-[#112B44]" />
               </a>
               <a 
                 href="https://www.linkedin.com/company/106318788/admin/dashboard/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="p-2 rounded-full bg-muted hover:bg-primary hover:text-primary-foreground transition-all duration-300 transform hover:scale-110"
+                className="group p-2 rounded-full bg-white/10 hover:bg-primary transition-all duration-300 transform hover:scale-110"
                 aria-label="LinkedIn"
               >
-                <Linkedin className="w-5 h-5" />
+                <Linkedin className="w-5 h-5 text-white/80 group-hover:text-[#112B44]" />
               </a>
               <a 
                 href="https://www.instagram.com/datadrivendecisionpartners/?hl=en" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="p-2 rounded-full bg-muted hover:bg-primary hover:text-primary-foreground transition-all duration-300 transform hover:scale-110"
+                className="group p-2 rounded-full bg-white/10 hover:bg-primary transition-all duration-300 transform hover:scale-110"
                 aria-label="Instagram"
               >
-                <Instagram className="w-5 h-5" />
+                <Instagram className="w-5 h-5 text-white/80 group-hover:text-[#112B44]" />
               </a>
               <a 
                 href="https://www.facebook.com/profile.php?id=61572571655706" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="p-2 rounded-full bg-muted hover:bg-primary hover:text-primary-foreground transition-all duration-300 transform hover:scale-110"
+                className="group p-2 rounded-full bg-white/10 hover:bg-primary transition-all duration-300 transform hover:scale-110"
                 aria-label="Facebook"
               >
-                <Facebook className="w-5 h-5" />
+                <Facebook className="w-5 h-5 text-white/80 group-hover:text-[#112B44]" />
               </a>
             </div>
           </div>
 
           {/* Services */}
           <div className="space-y-4">
-            <h3 className="font-bold text-foreground">Services</h3>
+            <h3 className="font-bold text-white">Services</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#services" onClick={(e) => handleServiceClick(e, "Data Strategy")} className="text-muted-foreground hover:text-foreground transition-colors">
+                <a href="#services" onClick={(e) => handleServiceClick(e, "Data Strategy")} className="text-white/80 hover:text-white transition-colors">
                   Data Strategy
                 </a>
               </li>
               <li>
-                <a href="#services" onClick={(e) => handleServiceClick(e, "Data Management")} className="text-muted-foreground hover:text-foreground transition-colors">
+                <a href="#services" onClick={(e) => handleServiceClick(e, "Data Management")} className="text-white/80 hover:text-white transition-colors">
                   Data Management
                 </a>
               </li>
               <li>
-                <a href="#services" onClick={(e) => handleServiceClick(e, "Business Intelligence")} className="text-muted-foreground hover:text-foreground transition-colors">
+                <a href="#services" onClick={(e) => handleServiceClick(e, "Business Intelligence")} className="text-white/80 hover:text-white transition-colors">
                   Business Intelligence
                 </a>
               </li>
               <li>
-                <a href="#services" onClick={(e) => handleServiceClick(e, "Data Protection")} className="text-muted-foreground hover:text-foreground transition-colors">
+                <a href="#services" onClick={(e) => handleServiceClick(e, "Data Protection")} className="text-white/80 hover:text-white transition-colors">
                   Data Protection
                 </a>
               </li>
@@ -153,25 +155,25 @@ export function Footer() {
 
           {/* Training */}
           <div className="space-y-4">
-            <h3 className="font-bold text-foreground">Training</h3>
+            <h3 className="font-bold text-white">Training</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#training" onClick={(e) => handleTrainingClick(e, "Data Analysis")} className="text-muted-foreground hover:text-foreground transition-colors">
+                <a href="#training" onClick={(e) => handleTrainingClick(e, "Data Analysis")} className="text-white/80 hover:text-white transition-colors">
                   Data Analysis
                 </a>
               </li>
               <li>
-                <a href="#training" onClick={(e) => handleTrainingClick(e, "Data Engineering")} className="text-muted-foreground hover:text-foreground transition-colors">
+                <a href="#training" onClick={(e) => handleTrainingClick(e, "Data Engineering")} className="text-white/80 hover:text-white transition-colors">
                   Data Engineering
                 </a>
               </li>
               <li>
-                <a href="#training" onClick={(e) => handleTrainingClick(e, "DPO Training")} className="text-muted-foreground hover:text-foreground transition-colors">
+                <a href="#training" onClick={(e) => handleTrainingClick(e, "DPO Training")} className="text-white/80 hover:text-white transition-colors">
                   DPO Training
                 </a>
               </li>
               <li>
-                <a href="#training" onClick={(e) => handleTrainingClick(e, "After-Work Programs")} className="text-muted-foreground hover:text-foreground transition-colors">
+                <a href="#training" onClick={(e) => handleTrainingClick(e, "After-Work Programs")} className="text-white/80 hover:text-white transition-colors">
                   After-Work Programs
                 </a>
               </li>
@@ -180,13 +182,13 @@ export function Footer() {
 
           {/* Contact */}
           <div className="space-y-4">
-            <h3 className="font-bold text-foreground">Contact</h3>
+            <h3 className="font-bold text-white">Contact</h3>
             <div className="space-y-3">
-              <div className="flex items-center gap-2 text-muted-foreground">
+              <div className="flex items-center gap-2 text-white/80">
                 <Mail className="w-4 h-4 text-primary" />
                 <span>3dp.rwanda@gmail.com</span>
               </div>
-              <div className="flex items-center gap-2 text-muted-foreground">
+              <div className="flex items-center gap-2 text-white/80">
                 <MapPin className="w-4 h-4 text-primary" />
                 <span>Kigali, Rwanda</span>
               </div>
@@ -201,7 +203,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="pt-8 border-t border-border text-center text-muted-foreground">
+        <div className="pt-8 border-t border-white/20 text-center text-white/60">
           <p>&copy; {new Date().getFullYear()} 3DP. All rights reserved.</p>
         </div>
       </div>
