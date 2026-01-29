@@ -6,7 +6,15 @@ import { ArrowRight } from "lucide-react"
 export function Hero() {
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 pb-16" style={{ backgroundColor: '#102C43' }}>
-      {/* Background gradient */}
+      {/* Background image with blur effect */}
+      <div className="absolute inset-0">
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30 blur-sm"
+          style={{ backgroundImage: 'url(/heroimages/herobg.jpg)' }}
+        />
+      </div>
+
+      {/* Background gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-[#E3A641]/5 to-[#102C43]" />
 
       {/* Animated background elements */}
