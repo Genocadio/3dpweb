@@ -19,7 +19,7 @@ export function Navigation() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "glass py-4" : "py-6"}`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-6`}
     >
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
@@ -46,9 +46,6 @@ export function Navigation() {
               </a>
               <a href="#training" className={`${isScrolled ? "text-foreground/80 hover:text-foreground" : "text-white hover:text-white"} transition-colors`}>
                 Training
-              </a>
-              <a href="#about" className={`${isScrolled ? "text-foreground/80 hover:text-foreground" : "text-white hover:text-white"} transition-colors`}>
-                About
               </a>
             </div>
             <Button className="rounded-full" asChild>
@@ -85,13 +82,6 @@ export function Navigation() {
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Training
-            </a>
-            <a
-              href="#about"
-              className="block text-foreground hover:text-primary transition-colors font-medium"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              About
             </a>
             <Button className="w-full rounded-full" asChild>
               <a href="https://3dp-admin-portal.vercel.app/">Data Maturity Assessment</a>
