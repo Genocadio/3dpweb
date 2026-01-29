@@ -20,7 +20,7 @@ export function Hero() {
           {/* Centered content */}
           <div className="space-y-6 animate-in fade-in duration-700">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-balance leading-tight text-white">
-              We enable organizations to transform data into <span className="text-primary">actionable insights</span> that drive{" "}
+              We turn data into <span className="text-primary">insights</span> that drive{" "}
               <span className="text-primary">performance</span> and growth
             </h1>
 
