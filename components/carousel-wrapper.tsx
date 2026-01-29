@@ -22,7 +22,7 @@ export function CarouselWrapper({ children, className = "", isVisible = true }: 
         "(min-width: 768px)": { slidesToScroll: 1 },
       },
     },
-    [Autoplay({ delay: 4500, stopOnInteraction: false, stopOnMouseEnter: true })],
+    [Autoplay({ delay: 4500, stopOnInteraction: false, stopOnMouseEnter: true }) as any],
   )
 
   const [currentIndex, setCurrentIndex] = useState(0)
