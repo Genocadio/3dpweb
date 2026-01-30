@@ -1,3 +1,15 @@
+/* Prevent text reflow/line-break changes for the central WhoCanWeHelp card description on hover */
+.static-desc {
+  white-space: pre-line;
+  word-break: keep-all;
+  width: 100%;
+}
+.static-card:hover .static-desc {
+  white-space: pre-line;
+  word-break: keep-all;
+  width: 100%;
+}
+/* Removed hover functionality for WhoCanWeHelp cards */
 @import "tailwindcss";
 @import "tw-animate-css";
 

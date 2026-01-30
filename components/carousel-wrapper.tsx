@@ -67,7 +67,7 @@ export function CarouselWrapper({ children, className = "", isVisible = true }: 
           {childrenArray.map((child, index) => (
             <div
               key={index}
-              className={`embla__slide px-3 transition-opacity duration-200`}
+              className={`embla__slide px-3 transition-opacity duration-200${hoveredIndex === index ? " is-hovered" : ""}`}
               style={{
                 flexShrink: 0,
                 flexBasis: "100%",
@@ -109,10 +109,11 @@ export function CarouselWrapper({ children, className = "", isVisible = true }: 
 
       <style jsx>{`
         .embla {
-          overflow: hidden;
+          overflow: visible;
+          padding: 2rem 0;
         }
         .embla__viewport {
-          overflow: hidden;
+          overflow: visible;
         }
         .embla__container {
           display: flex;
@@ -120,6 +121,8 @@ export function CarouselWrapper({ children, className = "", isVisible = true }: 
           backface-visibility: hidden;
           perspective: 1000px;
           align-items: stretch;
+          position: relative;
+          z-index: 0;
         }
         .embla__slide {
           flex-shrink: 0;
@@ -127,6 +130,11 @@ export function CarouselWrapper({ children, className = "", isVisible = true }: 
           backface-visibility: hidden;
           display: flex;
           flex-direction: column;
+          position: relative;
+          z-index: 1;
+        }
+        .embla__slide.is-hovered {
+          z-index: 10 !important;
         }
         .embla__slide > div {
           display: flex;
